@@ -12,6 +12,7 @@ public class PrivateConstructorDemo {
 		
 		System.out.println(m);
 		System.out.println(m1);
+		
 	}
 
 }
