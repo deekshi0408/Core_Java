@@ -1,6 +1,7 @@
 package com.tnsif.dayfive.association.isa;
 
-public class Maneger extends Employee{
+//Subclass inheriting from Employee
+public class Manager extends Employee {
 	private int teamSize;
 
 	// constructors
@@ -28,7 +29,5 @@ public class Maneger extends Employee{
 		return "Manager [TeamSize=" + teamSize + ", Name=" + getName() + ", EmployeeId=" + getEmployeeId()
 				+ ", Department=" + getDepartment() + "]";
 	}
-
-	
 
 }

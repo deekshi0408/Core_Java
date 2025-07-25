@@ -1,7 +1,10 @@
+//Program to define intermediate class inheriting from Employee
 package com.tnsif.dayfive.multilevelinheritance1;
 
-public class LevelOneEmployee extends Employee{
-	private int noOfShares;
+import java.util.Date;
+
+public class LevelOneEmployee extends Employee {
+    private int noOfShares;
     private String authority;
     
     public LevelOneEmployee() {}
@@ -32,5 +35,4 @@ public class LevelOneEmployee extends Employee{
 	public String toString() {
 		return "LevelOneEmployee ["+super.toString()+"noOfShares=" + noOfShares + ", authority=" + authority + "]";
 	}   
-
 }

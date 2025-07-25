@@ -1,3 +1,4 @@
+//Program to demonstrate Hierarchical Inheritance 
 package com.tnsif.dayfive.hierarchicalinheritance;
 
 public class HierarchicalInhDemo {
@@ -21,7 +22,5 @@ public class HierarchicalInhDemo {
 			System.out.println("Student Details "+p);
 
 	}
-
-}
 
 }
