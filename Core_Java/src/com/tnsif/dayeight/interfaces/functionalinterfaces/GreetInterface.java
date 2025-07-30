@@ -1,5 +1,7 @@
 package com.tnsif.dayeight.interfaces.functionalinterfaces;
 
-public interface GreetInterface {
 
+@FunctionalInterface
+public interface GreetInterface {
+	public String greet();
 }
