@@ -1,0 +1,5 @@
+package com.tnsif.dayeight.abstraction;
+
+public class AbstractDemo {
+
+}
