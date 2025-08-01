@@ -1,5 +1,9 @@
 package assignment6;
 
-public class InsufficientFundsException {
-
+class InsufficientFundsException extends Exception {
+    public InsufficientFundsException(String message) {
+        super(message);
+    }
 }
+
+
