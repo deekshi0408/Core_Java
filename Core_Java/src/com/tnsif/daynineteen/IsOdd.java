@@ -1,5 +1,6 @@
 package com.tnsif.daynineteen;
 
-public interface IsOdd {
-
+@FunctionalInterface
+interface IsOdd{
+	public boolean CheckOdd(int a);
 }
